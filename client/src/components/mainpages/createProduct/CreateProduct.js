@@ -7,7 +7,7 @@ import {useNavigate, useParams} from 'react-router-dom' //useHistory --> useNavi
 const initialState = {
     product_id: '',
     title: '',
-    price: '.00',
+    price: '',
     description: '',
     category: '',
     _id: ''
