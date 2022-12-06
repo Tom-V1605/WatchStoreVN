@@ -7,9 +7,8 @@ import {useNavigate, useParams} from 'react-router-dom' //useHistory --> useNavi
 const initialState = {
     product_id: '',
     title: '',
-    price: '',
+    price: '.00',
     description: '',
-    content: '',
     category: '',
     _id: ''
 }
@@ -159,12 +158,6 @@ function CreateProduct() {
                     <label htmlFor="description">Description</label>
                     <textarea type="text" name="description" id="description" required
                     value={product.description} rows="5" onChange={handleChangeInput} />
-                </div>
-
-                <div className="row">
-                    <label htmlFor="content">Content</label>
-                    <textarea type="text" name="content" id="content" required
-                    value={product.content} rows="7" onChange={handleChangeInput} />
                 </div>
 
                 <div className="row">
