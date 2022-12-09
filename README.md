@@ -1,13 +1,11 @@
 # MERN Stack Ecommerce Website - WatchStoreVN
-
-# Description
 Build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS) for selling watches.
 
 # Demo Website
 Heroku: https://watchstorevn.herokuapp.com/
 
 # VSCode Extensions
-ES7+ React/Redux/React-Native snippets
+- ES7+ React/Redux/React-Native snippets
 
 # MERN
 - MongoDB,
